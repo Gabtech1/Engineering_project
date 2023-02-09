@@ -126,27 +126,31 @@ header nav ul li a:hover {
     max-height: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     padding: 80px 200px;
     gap: 0px 50px;
     background-color: #111111;
 }
 
+#segmentos h2{
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+    color: #ff7b00;
+    align-self: center;
+    font-size: 36px;
+    padding: 0 115px;
+    margin-bottom: -50px;
+}
+
 #segmentos p {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     text-align: left;
     grid-row: 2;
     width: 500px;
     margin-bottom: 40px;
-}
-
-.logo {
-    height: 80px;
-    max-width: 100%;
-    grid-row: 1;
-    grid-column: 1;
 }
 
 .segmento-menu {

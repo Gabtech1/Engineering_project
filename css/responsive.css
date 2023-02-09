@@ -17,6 +17,17 @@
         padding: 80px 120px;
     }
 
+    #segmentos h2 {
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: start;
+        color: #ff7b00;
+        align-self: center;
+        font-size: 32px;
+        padding: 0 85px;
+        margin-bottom: -100px;
+    }
+
     #contato {
         padding: 80px 120px;
     }
@@ -40,9 +51,10 @@
     }
 
     #segmentos p {
+        font-size: 24px;
         font-weight: 300;
         width: 450px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .segmento-menu {
@@ -141,7 +153,7 @@
     }
 
     #segmentos p {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 300;
         width: 400px;
         margin-top: 30px;
@@ -244,16 +256,20 @@
         justify-self: center;
         margin-bottom: 10px;
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 2;
     }
 
-    .logo {
-        display: none;
+    #segmentos h2 {
+        grid-column: 1;
+        grid-row: 1;
+        justify-self: center;
+        margin-bottom: 15px;
+        margin-top: 25px;
     }
 
     .segmento-menu {
         width: 250px;
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -264,7 +280,7 @@
 
     #galeria {
         height: 280px;
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 1;
         justify-self: center;
         margin-bottom: 40px;
@@ -401,11 +417,17 @@
         font-size: 20px;
         font-weight: 300;
         width: 300px;
-        margin-top: 30px;
+        margin-top: 80px;
         justify-self: center;
         margin-bottom: 10px;
         grid-column: 1;
         grid-row: 1;
+    }
+
+    #segmentos h2 {
+        align-self: flex-start;
+        margin-bottom: 15px;
+        margin-top: 25px;
     }
 
     #empresa {
@@ -435,7 +457,7 @@
         margin-bottom: 20px;
     }
 
-    .fornecedor{
+    .fornecedor {
         grid-row: 3;
         justify-self: center;
         height: 80px;
@@ -464,11 +486,11 @@
     footer {
         font-size: 14px;
     }
-    
+
     footer img {
         height: 45px;
     }
-    
+
     footer a {
         left: 2%;
     }
