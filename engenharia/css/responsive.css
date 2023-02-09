@@ -1,0 +1,475 @@
+/* 1ª ponto */
+@media (max-width: 1400px) {
+    #menu a {
+        font-size: 22px;
+    }
+
+    .navbar {
+        justify-content: space-evenly;
+    }
+
+    #empresa {
+        padding: 80px 120px;
+        gap: 0px 40px;
+    }
+
+    #segmentos {
+        padding: 80px 120px;
+    }
+
+    #contato {
+        padding: 80px 120px;
+    }
+
+    .topo {
+        width: 30px;
+    }
+
+    #marca {
+        width: 80px;
+        margin-left: -80px;
+    }
+
+    .info h3 {
+        font-size: 62px;
+    }
+
+    .info {
+        width: 400px;
+        margin-left: 120px;
+    }
+
+    #segmentos p {
+        font-weight: 300;
+        width: 450px;
+        margin-top: 30px;
+    }
+
+    .segmento-menu {
+        width: 350px;
+    }
+
+    #galeria {
+        margin-top: 30px;
+        height: 320px;
+    }
+
+    .fornecedor {
+        display: none;
+    }
+}
+
+/* 2ª ponto */
+@media (max-width: 1150px) {
+    header {
+        position: fixed;
+    }
+
+    #marca {
+        width: 70px;
+        margin-left: 30px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .menu-lista {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #141414;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .menu-item {
+        margin: 16px 0;
+    }
+
+    .menu-lista.active {
+        left: 0;
+    }
+
+    header {
+        height: 90px;
+        background-color: #141414;
+    }
+
+    header .container {
+        width: 95%;
+    }
+
+    #intro {
+        margin-top: 90px;
+        height: calc(100vh - 90px);
+    }
+
+    .info h3 {
+        font-size: 60px;
+    }
+
+    .info {
+        width: 400px;
+        margin-left: 100px;
+        padding-top: 70px;
+    }
+
+    #segmentos {
+        padding: 80px 60px;
+        gap: 0px 30px;
+        margin-top: 90px;
+    }
+
+    #segmentos p {
+        font-size: 20px;
+        font-weight: 300;
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .segmento-menu {
+        width: 300px;
+    }
+
+    #galeria {
+        margin-top: 30px;
+        height: 280px;
+    }
+
+    #galeria:hover {
+        transform: none;
+        border: 1px solid white;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        background: #f88d29;
+    }
+
+    #empresa {
+        padding: 150px 40px;
+        gap: 0px 20px;
+        margin-top: 90px;
+    }
+
+    .fornecedor {
+        display: none;
+    }
+
+    #empresa h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    #empresa p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .empresa-img {
+        height: 450px;
+        justify-self: center;
+    }
+
+    .parceiros img {
+        height: 30px;
+    }
+
+    #contato {
+        padding: 116px 60px;
+        margin-top: 90px;
+    }
+
+    .mapa {
+        height: 250px;
+    }
+
+    .contato-item {
+        margin-bottom: 20px;
+    }
+
+    .contato-item p {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .topo {
+        width: 30px;
+    }
+}
+
+/* 3ª ponto */
+@media (max-width: 900px) {
+    .info h3 {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .info {
+        width: 350px;
+        margin-left: 80px;
+    }
+
+    #segmentos {
+        padding: 70px 30px;
+        gap: 0px 10px;
+        grid-template-columns: 1fr;
+    }
+
+    #segmentos p {
+        font-size: 20px;
+        font-weight: 300;
+        width: 420px;
+        margin-top: 30px;
+        justify-self: center;
+        margin-bottom: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .segmento-menu {
+        width: 250px;
+        grid-row: 3;
+        grid-column: 1;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0px;
+        padding: 0px;
+        justify-self: center;
+    }
+
+    #galeria {
+        height: 280px;
+        grid-row: 2;
+        grid-column: 1;
+        justify-self: center;
+        margin-bottom: 40px;
+    }
+
+    button {
+        height: 50px;
+        width: 130px;
+        background: #ffaf63;
+        color: #38220D;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 4px;
+        transition: 0.8s;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+        background: #f88d29;
+    }
+
+    .segmento-menu :nth-child(5) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .segmento-menu :nth-child(3) {
+        grid-column: 1.5;
+        grid-row: 4;
+    }
+
+    #empresa {
+        margin-top: 90px;
+        padding: 150px 30px;
+        gap: 0px 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .empresa-img {
+        display: none;
+    }
+
+    #empresa h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+        grid-row: 1;
+    }
+
+    #empresa p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        grid-row: 2;
+    }
+
+    .parceiros img {
+        height: 40px;
+        margin: 5px 15px;
+    }
+
+    #empresa h3 {
+        grid-row: 1;
+    }
+
+    .fornecedor {
+        grid-row: 3;
+        justify-self: center;
+        height: 120px;
+        display: block;
+        max-width: 100%;
+    }
+
+    #contato {
+        padding: 50px 40px;
+        grid-template-columns: 1fr;
+    }
+
+    .mapa {
+        margin-top: 40px;
+        height: 220px;
+    }
+
+    .contato-item {
+        margin-bottom: 20px;
+    }
+
+    .contato-item img {
+        height: 40px;
+    }
+
+    .contatos-info {
+        justify-self: center;
+    }
+
+    .contato-item p {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .topo {
+        width: 25px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    #marca {
+        width: 65px;
+    }
+
+    .info h3 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .info {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    #galeria {
+        height: 200px;
+        grid-row: 2;
+        grid-column: 1;
+        justify-self: center;
+        margin-bottom: 40px;
+    }
+
+    #segmentos {
+        padding: 70px 10px;
+    }
+
+    #segmentos p {
+        font-size: 20px;
+        font-weight: 300;
+        width: 300px;
+        margin-top: 30px;
+        justify-self: center;
+        margin-bottom: 10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #empresa {
+        margin-top: 90px;
+        padding: 150px 30px;
+        gap: 0px 30px;
+    }
+
+    #empresa h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        grid-row: 1;
+    }
+
+    #empresa p {
+        font-size: 20px;
+        margin-bottom: 10px;
+        grid-row: 2;
+    }
+
+    .parceiros img {
+        height: 30px;
+        margin: 5px 10px;
+    }
+
+    .parceiros {
+        margin-bottom: 20px;
+    }
+
+    .fornecedor{
+        grid-row: 3;
+        justify-self: center;
+        height: 80px;
+        display: block;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    #contato {
+        padding: 50px 20px;
+    }
+
+    .contato-item img {
+        height: 35px;
+    }
+
+    .contato-item p {
+        font-size: 20px;
+    }
+
+    .topo {
+        width: 25px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+    
+    footer img {
+        height: 45px;
+    }
+    
+    footer a {
+        left: 2%;
+    }
+}

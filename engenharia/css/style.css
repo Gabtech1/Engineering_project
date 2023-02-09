@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', Arial;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    background-color: #111111;
+}
+
+/* Menu */
+header {
+    top: 0;
+    background-color: #111111;
+    width: 100%; 
+    height: 120px;
+}
+
+li{
+    list-style: none;
+}
+
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+#menu{
+    width: 85%;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu-lista{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#marca{
+    width: 90px;
+    display: block;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    transition: all 333ms linear 0s;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Apresentação */
+#intro {
+    height: calc(100vh - 120px);
+    background-image: url(../imgs/intro.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.info h3 {
+    font-size: 70px;
+    color: white;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.info a {
+    text-decoration: none;
+    background: #000000;
+    padding: 12px 30px;
+    font-size: 22px;
+    color: #ffaf63;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.info a:hover {
+    background-color: #1f1e1e;
+    color: #ff7a00;
+    transition: 1.2s;
+}
+
+.info {
+    width: 505px;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+/* Segmentos */
+#segmentos {
+    max-height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    padding: 80px 200px;
+    gap: 0px 50px;
+    background-color: #111111;
+}
+
+#segmentos p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    grid-row: 2;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 80px;
+    max-width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.segmento-menu {
+    grid-row: 3/5;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 400px;
+}
+
+button {
+    height: 60px;
+    width: 150px;
+    background: #ffaf63;
+    color: #38220D;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #f88d29;
+}
+
+.buttonClicked {
+    background-color: #fc7a00;
+    color: #38220D;
+}
+
+.segmento-menu :nth-child(3) {
+    grid-row: 2;
+    grid-column: 1/3;
+}
+
+#galeria {
+    display: block;
+    max-width: 100%;
+    grid-column: 2;
+    grid-row: 2/5;
+    border-radius: 4px;
+    height: 360px;
+    transition: 1s ease;
+}
+
+#galeria:hover {
+    transform: scale(1.1);
+}
+
+/* Empresa */
+#empresa {
+    max-height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 200px;
+    background-color: white;
+}
+
+#empresa h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#empresa p {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.empresa-info {
+    align-self: center;
+}
+
+.empresa-info h3 {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.parceiros img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.parceiros img {
+    display: block;
+    max-width: 100%;
+    height: 40px;
+    margin: 10px 15px;
+}
+
+.fornecedor{
+    display: none;
+}
+
+/* Contato */
+#contato {
+    max-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 200px;
+    background-color: #111111;
+}
+
+.mapa {
+    display: block;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    border: solid #f88d29 2px;
+    align-self: center;
+    justify-self: center;
+}
+
+.contato-item {
+    display: flex;
+    flex-wrap: wrap;
+    color: #F4D1B1;
+    margin-bottom: 32px;
+    align-self: center;
+    justify-self: center;
+}
+
+.contato-item p {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    font-size: 18px;
+    color: white;
+    height: 60px;
+    background-color: #2A2A2B;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer img {
+    display: block;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    position: absolute;
+    left: 5%;
+    text-decoration: none;
+    color: #ff7a00;
+}

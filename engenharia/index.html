@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./imgs/logotipo.svg" />
+    <title>Engenharia</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header>
+        <div class="container">
+            <div id="menu">
+                <nav class="navbar">
+                    <img id="marca" src="./imgs/Marca.svg" alt="Marca da empresa">
+                    <ul class="menu-lista">
+                        <li class="menu-item">
+                            <a class="nav-link" href="#segmentos">Áreas de Atuação</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="nav-link" href="#empresa">Nossa Empresa</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Apresentação -->
+    <section id="intro">
+        <div class="info">
+            <h3>Solução e excelência para sua obra</h3>
+            <a href="#segmentos">SAIBA MAIS</a>
+        </div>
+    </section>
+
+    <!-- Seção segmentos -->
+    <section id="segmentos">
+        <img class="logo" src="./imgs/logotipo.svg">
+        <p>Oferecemos soluções completas em engenharia civil, trazendo inovações, qualidade e segurança para o seu
+            projeto.
+            Oferecemos soluções completas em engenharia civil, trazendo inovações, qualidade e segurança para o seu
+            projeto.
+        </p>
+        <div class="segmento-menu">
+            <button onclick="mudarImagem('galeria','./imgs/edificacao.jpg')">
+                EDIFICAÇÕES
+            </button>
+
+            <button onclick="mudarImagem('galeria','./imgs/industrial.jpg')">
+                INDUSTRIAL
+            </button>
+
+            <button onclick="mudarImagem('galeria','./imgs/geotecnia.jpg')">
+                GEOTECNIA
+            </button>
+
+            <button onclick="mudarImagem('galeria','./imgs/saneamento.jpg')">
+                SANEAMENTO
+            </button>
+
+            <button onclick="mudarImagem('galeria','./imgs/solar.jpg')">
+                ENERGIA SOLAR
+            </button>
+        </div>
+        <img id="galeria" src="./imgs/static.jpg">
+    </section>
+
+    <!-- Seção sobre a empresa -->
+    <section id="empresa">
+        <img class="empresa-img" src="./imgs/empresa.jpg">
+        <div class="empresa-info">
+            <h2>NOSSA EMPRESA</h2>
+            <p>Fundada em 2023, atuamos em todo território nacional, em diversos segmentos da engenharia.</p>
+            <p>Contamos com uma equipe altamente qualificada, para o desenvolvimento e regularização de projetos com
+                comprometimento e respeito aos nossos clientes, prezando por um excelente custo benefício e agilidade na
+                entrega.</p>
+            <h3>Alguns de nossos parceiros:</h3>
+
+            <div class="parceiros">
+                <img src="./imgs/tigre.webp">
+                <img src="./imgs/cc.webp">
+                <img src="./imgs/fortlev.webp">
+                <img src="./imgs/ccc.webp">
+            </div>
+        </div>
+        <img class="fornecedor" src="./imgs/forneAlt.jpg">
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="contatos-info">
+
+            <div class="contato-item">
+                <img src="./imgs/email.svg">
+                <p>Projetos.eng@gmail.com</p>
+            </div>
+
+            <div class="contato-item">
+                <img src="./imgs/phone.svg">
+                <p>(XX) xxxx-xxxx</p>
+            </div>
+
+            <div class="contato-item">
+                <img src="./imgs/phone.svg">
+                <p>(XX) xxxx-xxxx</p>
+            </div>
+
+            <div class="contato-item">
+                <img src="./imgs/local.svg">
+                <p>Cuiabá, Mato grosso</p>
+            </div>
+
+        </div>
+        <img class="mapa" src="./imgs/mapa.jpg">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a class="topo" href="#intro"><img src="./imgs/topo.svg"></a>
+        <p>© Copyright 2023</p>
+        <img src="./imgs/logotipo.svg">
+        <p>Engenharia</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
