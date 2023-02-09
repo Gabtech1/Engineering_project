@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 
-- [Acesse o projeto finalizado, online](https://gabtech1.github.io/NLW-setup/)
+- [Acesse o projeto finalizado, online](https://gabtech1.github.io/Engineering_project/)
 
 
 
