@@ -173,11 +173,6 @@
         border: 1px solid white;
     }
 
-    button:hover {
-        transform: scale(1.05);
-        background: #f88d29;
-    }
-
     #empresa {
         padding: 150px 40px;
         gap: 0px 20px;
@@ -295,11 +290,6 @@
         font-size: 18px;
         border-radius: 4px;
         transition: 0.8s;
-    }
-
-    button:hover {
-        transform: scale(1.1);
-        background: #f88d29;
     }
 
     .segmento-menu :nth-child(5) {
